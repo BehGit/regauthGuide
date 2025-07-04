@@ -155,13 +155,13 @@ AUTHENTICATION_BACKENDS = [
     'allauth.account.auth_backends.AuthenticationBackend',
 ]
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-EMAIL_USE_TLS = True
-EMAIL_HOST = "smpt.gmail.com"
-EMAIL_PORT = "587"
-EMAIL_HOST_USER = "user@example.com"
-EMAIL_HOST_PASSWORD = ""
-DEFAULT_FROM_EMAIL = "user@example.com"
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+# EMAIL_USE_TLS = True
+# EMAIL_HOST = "smpt.gmail.com"
+# EMAIL_PORT = "587"
+# EMAIL_HOST_USER = "user@example.com"
+# EMAIL_HOST_PASSWORD = ""
+# DEFAULT_FROM_EMAIL = "user@example.com"
 
 REST_FRAMEWORK = {
     "DEAFULT_PERMISSION_CLASSES":[
